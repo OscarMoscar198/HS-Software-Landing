@@ -10,54 +10,50 @@ interface FeatureProps {
 const features: FeatureProps[] = [
   {
     icon: <MedalIcon />,
-    title: "Accessibility",
+    title: "Accesibilidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Nos aseguramos de que nuestras soluciones sean accesibles para todos, proporcionando interfaces intuitivas y fáciles de usar que cumplen con los más altos estándares de accesibilidad.",
   },
   {
     icon: <MapIcon />,
-    title: "Community",
+    title: "Comunidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Fomentamos una comunidad colaborativa y abierta, donde compartimos conocimientos y recursos para promover el crecimiento y el aprendizaje mutuo.",
   },
   {
     icon: <PlaneIcon />,
-    title: "Scalability",
+    title: "Escalabilidad",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Nuestras soluciones están diseñadas para crecer contigo. Ofrecemos estructuras escalables que se adaptan a tus necesidades cambiantes, asegurando un rendimiento óptimo a medida que tu proyecto se expande.",
   },
   {
     icon: <GiftIcon />,
-    title: "Gamification",
+    title: "Gamificacion",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum quas provident cum",
+      "Utilizamos técnicas de gamificación para hacer nuestras soluciones más atractivas, promoviendo un mayor nivel de compromiso y productividad.",
   },
 ];
 
 export const HowItWorks = () => {
   return (
-    <section
-      id="howItWorks"
-      className="container text-center py-24 sm:py-32"
-    >
+    <section id="howItWorks" className="container text-center py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold ">
-        How It{" "}
+        Nuestro Metodo de{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Works{" "}
+          Trabajo{" "}
         </span>
-        Step-by-Step Guide
+        Paso a Paso
       </h2>
       <p className="md:w-3/4 mx-auto mt-4 mb-8 text-xl text-muted-foreground">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-        dolor pariatur sit!
+        Nos enorgullecemos de nuestro enfoque meticuloso y estructurado para
+        garantizar resultados de calidad en cada proyecto. Con un compromiso
+        firme con la excelencia, nuestro proceso está diseñado para ser
+        transparente y eficiente en cada etapa.
       </p>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {features.map(({ icon, title, description }: FeatureProps) => (
-          <Card
-            key={title}
-            className="bg-muted/50"
-          >
+          <Card key={title} className="bg-muted/50">
             <CardHeader>
               <CardTitle className="grid gap-4 place-items-center">
                 {icon}

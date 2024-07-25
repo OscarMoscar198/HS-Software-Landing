@@ -28,12 +28,12 @@ export const HeroCards = () => {
           </Avatar>
 
           <div className="flex flex-col">
-            <CardTitle className="text-lg">John Doe React</CardTitle>
-            <CardDescription>@john_doe</CardDescription>
+            <CardTitle className="text-lg">Crescencio Sainz</CardTitle>
+            <CardDescription>@cres_sainz</CardDescription>
           </div>
         </CardHeader>
 
-        <CardContent>This landing page is awesome!</CardContent>
+        <CardContent>Excelente Servicio!</CardContent>
       </Card>
 
       {/* Team */}
@@ -44,7 +44,7 @@ export const HeroCards = () => {
             alt="user avatar"
             className="absolute grayscale-[0%] -top-12 rounded-full w-24 h-24 aspect-square object-cover"
           />
-          <CardTitle className="text-center">Leo Miranda</CardTitle>
+          <CardTitle className="text-center"></CardTitle>
           <CardDescription className="font-normal text-primary">
             Frontend Developer
           </CardDescription>

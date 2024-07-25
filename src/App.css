@@ -70,48 +70,48 @@
 /* *=========== Green theme =========== */
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 240 10% 3.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
-    --primary: 142.1 76.2% 36.3%;
-    --primary-foreground: 355.7 100% 97.3%;
-    --secondary: 240 4.8% 95.9%;
-    --secondary-foreground: 240 5.9% 10%;
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
-    --accent: 240 4.8% 95.9%;
-    --accent-foreground: 240 5.9% 10%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 98%;
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 142.1 76.2% 36.3%;
-    --radius: 0.5rem;
+    --background: 240 100% 98%; /* Fondo azul claro */
+    --foreground: 240 10% 3.9%; /* Color de texto principal */
+    --card: 240 100% 100%; /* Fondo de tarjetas */
+    --card-foreground: 240 10% 3.9%; /* Texto en tarjetas */
+    --popover: 240 100% 100%; /* Fondo de popover */
+    --popover-foreground: 240 10% 3.9%; /* Texto en popover */
+    --primary: 210 100% 50%; /* Azul primario */
+    --primary-foreground: 0 0% 100%; /* Texto en fondo primario */
+    --secondary: 210 50% 90%; /* Azul secundario claro */
+    --secondary-foreground: 240 10% 3.9%; /* Texto en fondo secundario */
+    --muted: 210 50% 90%; /* Fondo atenuado */
+    --muted-foreground: 240 10% 3.9%; /* Texto en fondo atenuado */
+    --accent: 210 50% 90%; /* Fondo de acento */
+    --accent-foreground: 240 10% 3.9%; /* Texto en fondo de acento */
+    --destructive: 0 84.2% 60.2%; /* Color destructivo (rojo) */
+    --destructive-foreground: 0 0% 98%; /* Texto en fondo destructivo */
+    --border: 240 10% 80%; /* Color de borde */
+    --input: 240 10% 80%; /* Fondo de input */
+    --ring: 210 100% 50%; /* Anillo de foco azul */
+    --radius: 0.5rem; /* Radio de borde */
   }
 
   .dark {
-    --background: 20 14.3% 4.1%;
-    --foreground: 0 0% 95%;
-    --card: 24 9.8% 10%;
-    --card-foreground: 0 0% 95%;
-    --popover: 0 0% 9%;
-    --popover-foreground: 0 0% 95%;
-    --primary: 142.1 70.6% 45.3%;
-    --primary-foreground: 144.9 80.4% 10%;
-    --secondary: 240 3.7% 15.9%;
-    --secondary-foreground: 0 0% 98%;
-    --muted: 0 0% 15%;
-    --muted-foreground: 240 5% 64.9%;
-    --accent: 12 6.5% 15.1%;
-    --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 0 85.7% 97.3%;
-    --border: 240 3.7% 15.9%;
-    --input: 240 3.7% 15.9%;
-    --ring: 142.4 71.8% 29.2%;
+    --background: 240 30% 15%; /* Fondo azul oscuro */
+    --foreground: 0 0% 95%; /* Texto claro */
+    --card: 240 20% 20%; /* Fondo de tarjetas oscuras */
+    --card-foreground: 0 0% 95%; /* Texto en tarjetas oscuras */
+    --popover: 240 20% 20%; /* Fondo de popover oscuro */
+    --popover-foreground: 0 0% 95%; /* Texto en popover oscuro */
+    --primary: 210 100% 40%; /* Azul primario oscuro */
+    --primary-foreground: 0 0% 100%; /* Texto en fondo primario oscuro */
+    --secondary: 210 30% 30%; /* Azul secundario oscuro */
+    --secondary-foreground: 0 0% 98%; /* Texto en fondo secundario oscuro */
+    --muted: 210 30% 30%; /* Fondo atenuado oscuro */
+    --muted-foreground: 0 0% 95%; /* Texto en fondo atenuado oscuro */
+    --accent: 210 30% 30%; /* Fondo de acento oscuro */
+    --accent-foreground: 0 0% 98%; /* Texto en fondo de acento oscuro */
+    --destructive: 0 62.8% 30.6%; /* Color destructivo oscuro (rojo) */
+    --destructive-foreground: 0 85.7% 97.3%; /* Texto en fondo destructivo oscuro */
+    --border: 240 30% 25%; /* Color de borde oscuro */
+    --input: 240 30% 25%; /* Fondo de input oscuro */
+    --ring: 210 100% 40%; /* Anillo de foco azul oscuro */
   }
 }
 

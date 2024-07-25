@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Colaboracion en el Codigo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Nuestra filosofía de trabajo se basa en la colaboración. Utilizamos herramientas avanzadas para facilitar la codificación conjunta, permitiendo que nuestros desarrolladores trabajen en sinergia y entreguen productos de alta calidad.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Gestion de Proyectos",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Mantén tus proyectos en el camino correcto con nuestras soluciones de gestión. Desde la asignación de tareas hasta el seguimiento del progreso, ofrecemos todo lo que necesitas para gestionar tus proyectos con éxito.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Automatizacion de Tareas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Para optimizar tu inversión, implementamos procesos de automatización que reducen los tiempos de desarrollo y minimizan errores, permitiéndonos entregar soluciones más rápidas y fiables.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -36,14 +36,15 @@ export const Services = () => {
         <div>
           <h2 className="text-3xl md:text-4xl font-bold">
             <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-              Client-Centric{" "}
+              Servicios Centrados{" "}
             </span>
-            Services
+            en el Cliente
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Nos enfocamos en entender y satisfacer tus necesidades específicas.
+            Nuestra prioridad es brindarte un servicio personalizado que exceda
+            tus expectativas y contribuya a tu éxito.
           </p>
 
           <div className="flex flex-col gap-8">

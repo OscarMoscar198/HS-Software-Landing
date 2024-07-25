@@ -13,12 +13,12 @@ export const Footer = () => {
             className="font-bold text-xl flex"
           >
             <LogoIcon />
-            ShadcnUI/React
+            HS Software
           </a>
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Follow US</h3>
+          <h3 className="font-bold text-lg">Siguenos</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -51,7 +51,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Platforms</h3>
+          <h3 className="font-bold text-lg">Plataformas</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -84,7 +84,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">About</h3>
+          <h3 className="font-bold text-lg">Acerca de</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -117,7 +117,7 @@ export const Footer = () => {
         </div>
 
         <div className="flex flex-col gap-2">
-          <h3 className="font-bold text-lg">Community</h3>
+          <h3 className="font-bold text-lg">Comunidad</h3>
           <div>
             <a
               rel="noreferrer noopener"
@@ -152,14 +152,14 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2024 Derechos reservados{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://github.com/leoMirandaa"
+            href="#"
             className="text-primary transition-all border-primary hover:border-b-2"
           >
-            Leo Miranda
+            HS Software
           </a>
         </h3>
       </section>

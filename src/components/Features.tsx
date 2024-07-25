@@ -18,35 +18,32 @@ interface FeatureProps {
 
 const features: FeatureProps[] = [
   {
-    title: "Responsive Design",
+    title: "Diseño Responsivo",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Nuestro diseño se adapta perfectamente a cualquier dispositivo, asegurando una experiencia de usuario óptima sin importar si estás en una computadora, tableta o teléfono móvil. La flexibilidad y accesibilidad son nuestras prioridades.",
     image: image4,
   },
   {
-    title: "Intuitive user interface",
+    title: "Interfaz Intuitiva",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Disfruta de una interfaz diseñada pensando en ti. Nuestra plataforma es fácil de usar y navegar, permitiéndote concentrarte en lo que realmente importa sin complicaciones ni curvas de aprendizaje empinadas.",
     image: image3,
   },
   {
-    title: "AI-Powered insights",
+    title: "Impulsado por IA",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Obtén información valiosa y accionable gracias a nuestra tecnología impulsada por inteligencia artificial. Analiza datos y descubre tendencias ocultas que pueden ayudarte a tomar decisiones informadas y estratégicas.",
     image: image,
   },
 ];
 
 const featureList: string[] = [
-  "Dark/Light theme",
+  "Tema Oscuro/Claro",
   "Reviews",
-  "Features",
-  "Pricing",
-  "Contact form",
-  "Our team",
-  "Responsive design",
-  "Newsletter",
-  "Minimalist",
+  "Funciones",
+  "Nuestro Equipo",
+  "Diseño Responsivo",
+  "Minimalista",
 ];
 
 export const Features = () => {
@@ -56,9 +53,9 @@ export const Features = () => {
       className="container py-24 sm:py-32 space-y-8"
     >
       <h2 className="text-3xl lg:text-4xl font-bold md:text-center">
-        Many{" "}
+        Diferentes{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Great Features
+          Excelentes Funciones
         </span>
       </h2>
 

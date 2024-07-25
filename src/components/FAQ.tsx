@@ -13,60 +13,58 @@ interface FAQProps {
 
 const FAQList: FAQProps[] = [
   {
-    question: "Is this template free?",
-    answer: "Yes. It is a free ChadcnUI template.",
+    question: "¿Qué tipo de servicios ofrecen?",
+    answer:
+      "Ofrecemos desarrollo personalizado de páginas web y aplicaciones, con un enfoque en servicios centrados en el cliente, colaboración en código, gestión eficiente de proyectos y automatización de tareas.",
     value: "item-1",
   },
   {
-    question: "Lorem ipsum dolor sit amet consectetur adipisicing elit?",
+    question: "¿Cómo se aseguran de que los proyectos se entreguen a tiempo?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "Utilizamos métodos de gestión de proyectos transparentes y eficientes, manteniendo a nuestros clientes informados en cada etapa del desarrollo para garantizar que los plazos se cumplan.",
     value: "item-2",
   },
   {
-    question:
-      "Lorem ipsum dolor sit amet  Consectetur natus dolores minus quibusdam?",
+    question: "¿Qué significa que sus servicios son centrados en el cliente?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore qui nostrum reiciendis veritatis necessitatibus maxime quis ipsa vitae cumque quo?",
+      "Significa que priorizamos entender y satisfacer las necesidades específicas de cada cliente, ofreciendo soluciones personalizadas y soporte excepcional para asegurar su éxito.",
     value: "item-3",
   },
   {
-    question: "Lorem ipsum dolor sit amet, consectetur adipisicing elit?",
-    answer: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    question: "¿Cómo fomentan la colaboración en código?",
+    answer:
+      "Utilizamos herramientas avanzadas de codificación colaborativa que permiten a nuestro equipo trabajar en tiempo real, compartir ideas y editar código conjuntamente, asegurando productos de alta calidad.",
     value: "item-4",
   },
   {
     question:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur natus?",
+      "¿Qué beneficios ofrece la automatización de tareas en sus proyectos?",
     answer:
-      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint labore quidem quam? Consectetur sapiente iste rerum reiciendis animi nihil nostrum sit quo, modi quod.",
+      "La automatización de tareas nos permite acelerar los procesos de desarrollo, reducir errores y liberar tiempo para enfocarnos en la innovación y la creación de soluciones de alta calidad.",
     value: "item-5",
   },
+  // {
+  //   question:
+  //     "Aviso de Privacidad",
+  //   answer:
+  //     "La automatización de tareas nos permite acelerar los procesos de desarrollo, reducir errores y liberar tiempo para enfocarnos en la innovación y la creación de soluciones de alta calidad.",
+  //   value: "item-5",
+  // },
 ];
 
 export const FAQ = () => {
   return (
-    <section
-      id="faq"
-      className="container py-24 sm:py-32"
-    >
+    <section id="faq" className="container py-24 sm:py-32">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">
-        Frequently Asked{" "}
+        Preguntas{" "}
         <span className="bg-gradient-to-b from-primary/60 to-primary text-transparent bg-clip-text">
-          Questions
+          Frecuentes
         </span>
       </h2>
 
-      <Accordion
-        type="single"
-        collapsible
-        className="w-full AccordionRoot"
-      >
+      <Accordion type="single" collapsible className="w-full AccordionRoot">
         {FAQList.map(({ question, answer, value }: FAQProps) => (
-          <AccordionItem
-            key={value}
-            value={value}
-          >
+          <AccordionItem key={value} value={value}>
             <AccordionTrigger className="text-left">
               {question}
             </AccordionTrigger>
@@ -77,13 +75,13 @@ export const FAQ = () => {
       </Accordion>
 
       <h3 className="font-medium mt-4">
-        Still have questions?{" "}
+        Aún tienes preguntas? Contactanos en{" "}
         <a
           rel="noreferrer noopener"
           href="#"
           className="text-primary transition-all border-primary hover:border-b-2"
         >
-          Contact us
+          hs.entrenat@gmail.com
         </a>
       </h3>
     </section>

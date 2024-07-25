@@ -9,7 +9,7 @@ import { Navbar } from "./components/Navbar";
 import { ScrollToTop } from "./components/ScrollToTop";
 import { Services } from "./components/Services";
 import { Team } from "./components/Team";
-import { Testimonials } from "./components/Testimonials";
+// import { Testimonials } from "./components/Testimonials";
 import "./App.css";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
       <Features />
       <Services />
       <Cta />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <Team />
       <FAQ />
       <Footer />
